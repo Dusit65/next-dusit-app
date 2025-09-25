@@ -1,5 +1,5 @@
+"use client";
 import React from 'react'
-import ProfileCard from "./../components/profileCard"
 export default function HomePage() {
   return (
     <div className=" flex-col h-full items-start justify-center p-7  text-white">

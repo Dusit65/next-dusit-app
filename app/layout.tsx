@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Libre_Franklin } from "next/font/google";
 import ProfileCard from "./../components/profileCard"
 import SideBar from "./../components/sideBar";
-import SkillBadges from "../components/Skills";
 import "./globals.css";
 
 const libreFranklin = Libre_Franklin({

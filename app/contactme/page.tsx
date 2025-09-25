@@ -6,14 +6,7 @@ import React, { useState } from "react";
 // and inline SVGs for compatibility.
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({
-    email: "",
-    name: "",
-    phone: "",
-    address: "",
-    content: "",
-    newsletter: false,
-  });
+  
 
   // State to handle form submission message
   
@@ -115,7 +108,6 @@ export default function ContactForm() {
           <div className="col-span-1 md:col-span-2 mt-6">
             <button 
               type="submit" 
-              
               className="cursor-pointer w-full py-3 px-6 rounded-xl bg-orange-500 text-white font-semibold shadow-md transition-colors hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
             >
               Submit
