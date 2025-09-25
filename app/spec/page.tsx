@@ -7,7 +7,6 @@ import IcDesign from "./../icons/specIcon/design.png";
 export default function Page() {
   return (
     <div className="flwx flex-col h-full items-start justify-center p-7  text-white">
-      <script src="https://cdn.tailwindcss.com"></script>
       <div className="mx-auto ">
         <div className="max-w-2xl">
           {/* Header */}

@@ -1,5 +1,4 @@
 "use client";
-import React, { useState } from "react";
 
 // This is a single-file React app, we will not use external imports
 // like next/image or next/link and will instead use standard HTML elements
@@ -25,7 +24,7 @@ export default function ContactForm() {
     <div className="flex flex-col justify-center p-7 text-white ">
       
         <h1 className="text-4xl font-bold text-orange-500 mb-2">Contact Me</h1>
-        <p className="text-lg text-gray-300 mb-8">Let's get in touch!</p>
+        <p className="text-lg text-gray-300 mb-8">Lets get in touch!</p>
         
         <form  className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
           {/* Email field ---------------------*/}

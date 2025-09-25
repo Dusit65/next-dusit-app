@@ -19,7 +19,7 @@ export default function Page() {
       </div>
 
       <p className="max-w-xl text-neutral-400 text-xl mb-10">
-        Here's my latest project built with Next.js and Laravel, using
+        Heres my latest project built with Next.js and Laravel, using
         TailwindCSS on the front-end. Watch the video to see the responsive
         landing page in action!
       </p>
